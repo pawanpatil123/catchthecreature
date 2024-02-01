@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    background-image: url(https://images.unsplash.com/photo-1698676940773-c782ba4a7276?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+        height: 200px;
+    width: 200px;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    /* border-radius: 50%; */
+}
+
+
+
+ @keyframes anime {
+    /* from{
+        left: 0;
+        rotate: 0;
+    }
+    to{
+        top: 40%;
+        border-radius: 50%;
+   left: 80%;
+        background-color: red;
+rotate: 720deg;
+    } */
+
+    0%{
+        left: 0%;
+        top: 0%;
+    }
+    
+
+    25%{
+        left: 80%;
+        top: 0%;
+   
+        background-image: url(https://images.unsplash.com/photo-1682685797208-c741d58c2eff?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+   
+    }
+  50%{
+   background-image: url(https://images.unsplash.com/photo-1699024571491-f7088816e8ba?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8);
+   background-position: center;
+   background-size: cover;
+    left: 80%;
+    top: 40%;
+ border-radius: 50px;
+ 
+  }  
+ 75%{
+    left: 0%;
+    top: 40%;
+ }
+ 100%{
+    background-image: url(https://images.unsplash.com/photo-1675722275713-42e6ff27be34?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    left: 0%;
+    top: 0%;
+ }
+} 

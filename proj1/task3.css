@@ -1,0 +1,134 @@
+
+/* clipPathcss */
+/* marboro car */
+/* remove.bg */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 89, 255);
+}
+#nav{
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 54% 44%, 51% 43%, 0 64%);
+    display: flex;
+    color:aliceblue;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+#partb{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#part1{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#part2{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+#num{
+font-family: Bebas Neue;
+    font-size: 900%;
+    color: aliceblue;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#center{
+   
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     position: absolute;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: infinite;
+}
+img{
+    height: 300px;
+margin-left: 100px;
+
+}
+
+@keyframes anime {
+from{
+  
+
+    left: 100%;
+    
+
+    }
+    to{
+         
+   left: 50%;
+   
+    } 
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+
+}
+#he{
+    font-size: 50px;
+}
+#tex{
+    font-weight: 600;
+    font-size: 15px;
+}
+#nav3{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  justify-content: center;
+  font-size: 10px;
+  margin-top: 30px;
+
+}
+#num2{
+    text-align: center;
+    margin-top: 23px;
+}
+
+#icon{
+    color: white;
+    display: flex;
+      align-items: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+ font-size: 60px;
+
+}

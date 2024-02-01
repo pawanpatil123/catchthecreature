@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
+#nav{
+    display: flex;
+   justify-content: space-between;
+   background-color: bisque;
+   align-items: center;
+   padding: 0 23px;
+
+}
+
+
+#nav h1{
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 600;
+    line-height: 34px;
+    position: relative;
+    z-index: 9;
+}
+#nav h1 span
+{
+    color: red;
+    z-index: 9;
+    mix-blend-mode: exclusion;
+    font-weight: 400;
+}
+#nav h1::after{
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    bottom: 0;
+    right: 6%;
+    mix-blend-mode: color;
+    z-index: 1;
+}
+button{
+    padding: 12px 20px;
+    margin: 0 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid #777;
+    font-weight: 500;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+    transition: all ease 0.3s;
+    z-index: 9;
+}
+
+button::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 50%;
+    bottom: -100%;
+    transform: translate(-50%,0);
+    z-index: 0;
+    mix-blend-mode: difference;
+    transition: all ease 0.3s;
+    border-radius: 50%;
+}
+button:hover::after{
+    bottom: 0;
+    border-radius: 0;
+}
+button:hover{
+    color: #fff;
+}

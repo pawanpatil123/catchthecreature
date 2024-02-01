@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #car1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(2, 87, 58);
+}
+#car2{
+   
+    position: absolute;
+    right: 0;
+   top: 50%;
+   left: 50%; 
+    height: 100px;
+    width: 100px;
+    background-color: rgb(84, 2, 87);
+    transform: translate(-50%,-50%);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}#car3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(87, 60, 2);
+} */
+/* img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%,-50%);
+     box-shadow: 0 20px 20px rgb(46, 44, 44);
+     transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+#one{
+    left: 20%;
+}
+
+#three{
+    left: 80%;
+}
+img:hover{
+    height: 70%;
+} */
+/* #mask{
+    /* iss tag se image div ke bahar nikalegi to dikhegi nahi  */
+    /* overflow: hidden;  
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+    width: 300px;
+    height: 400px;
+
+    background-color: brown;
+    box-shadow: rgb(114, 3, 3);
+
+}
+img{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  */ 
+    /* transform: translate(width,height);  */
+
+    /* width: 100%;
+}
+img:hover{
+    width: 120%;
+    
+    diplay: flex;
+    align-items: center;   */
+    /* y axis */
+    /* justify-content: center;   */
+    /* x axis */
+/* justify-content: space-evenly;
+gap: 40px;
+} */
+/* remix icon
+cdn copy kar lo git hub se iski repo se
+*/
+/* #nav{
+    background-color: rgb(27, 17, 17);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+h4{
+    color: rgb(212, 172, 172);  
+    font-size: 14px;
+    font-weight: 30;
+}
+#bod{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+h4:hover
+{
+    background-color: rgb(18, 9, 56);
+  border-radius: 20px;
+    color: yellow
+} */

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    font-family:"Comfortaa Light";    
+
+           
+    height: 100%;
+    width: 100%; 
+    background-color: rgb(8, 9, 10);
+    color: white;
+ 
+}
+#nav{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+      
+/* margin-top: 30px; */
+
+/* background-color: black; */
+}
+#part1{
+    display: flex;
+    gap: 90px;
+}
+#cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-size: 30px;
+    font-family:"Comfortaa Light";    
+     
+    font-size: 50px;
+}
+#he1{
+    padding-right: 200px;
+}
+#he2{
+    padding-left: 200px;
+}
+#he3{
+    padding-left: 350px;
+}
+
+#cont2{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+  margin-top: 460px;
+font-size: 10px;
+     
+}
+#hi{
+    padding-left: 40px;
+}
+
+#image1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    rotate: 20deg;
+}
+#image2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+rotate: 10deg;
+}
+#image3{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+rotate: -5deg;
+}
+#image3:hover{
+    
+    opacity: 0;
+    background-color: blue;
+}
+#image2:hover{
+    
+    opacity: 0;
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 200px;
+}
