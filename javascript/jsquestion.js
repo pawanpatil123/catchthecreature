@@ -666,28 +666,38 @@
 
 
 //Q61
-var arr=[{name: "piyush",garde: [85,60,70]},
-{name: "tarun",garde: [40,30,60]},]
-var threashhold=80;
-function calavg(garde){
-    var sum=0;
-    for(var i=0; i<garde.length; i++){
-        sum+=garde[i]
-    }
-    return sum/garde.length
-}
-function passorfail(avarage,threashhold){
-if(avarage>=threashhold){
+// var arr=[{name: "piyush",garde: [85,60,70]},
+// {name: "tarun",garde: [40,30,60]},]
+// var threashhold=80;
+// function calavg(garde){
+//     var sum=0;
+//     for(var i=0; i<garde.length; i++){
+//         sum+=garde[i]
+//     }
+//     return sum/garde.length
+// }
+// function passorfail(avarage,threashhold){
+// if(avarage>=threashhold){
 
-    console.log("pass")
-}
-else{
-    console.log("fail")
+//     console.log("pass")
+// }
+// else{
+//     console.log("fail")
 
-}
-}
-for(var i=0; i<arr.length; i++){
-var avarage=calavg(arr[i].garde)
-var passfail= passorfail(avarage,threashhold)
-console.log(avarage,passfail)
-}
+// }
+// }
+// for(var i=0; i<arr.length; i++){
+// var avarage=calavg(arr[i].garde)
+// var passfail= passorfail(avarage,threashhold)
+// console.log(avarage,passfail)
+// }
+
+// Q62
+// var obj={name:"piyush patil",height: 23,weight: 40}
+// function calculateBMI(obj){
+//        var heightinmeter=obj.height;
+//        var weightin=obj.weight;
+//        const bmi =  weightin/(heightinmeter**2)
+//        return bmi;
+// }
+// console.log(calculateBMI(obj))
