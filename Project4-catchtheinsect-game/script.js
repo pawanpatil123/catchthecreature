@@ -69,6 +69,48 @@ function getrandom() {
   return { x, y }
 }
 
+var t1= gsap.timeline()
+t1.from("h1",{
+    x:0,
+     duration: 2,
+     delay: 0.5,
+     opacity:0,
+     scale:0,
+    //  rotate:360
+    //  repeat: -1,
+
+    //  yoyo: true
+})
+gsap.from("h2",{
+    x:0,
+     duration: 2,
+     delay: 0.5,
+     opacity:0,
+     scale:0,
+    //  rotate:360
+    //  repeat: -1,
+
+    //  yoyo: true
+})
+t1.from("button",{
+    y:50,
+     duration: 2,
+     opacity:0,
+     backgroundColor:"black"
+    //  scale:0
+    //  repeat: -1,
+    //  yoyo: true
+})
+
+
+
+
+
+
+
+
+
+
 
 
 //***OWN CODE WRITE BY ME */
