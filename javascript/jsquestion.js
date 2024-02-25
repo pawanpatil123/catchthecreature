@@ -701,3 +701,36 @@
 //        return bmi;
 // }
 // console.log(calculateBMI(obj))
+
+//javascript prepare
+//1. check the given value is array or not.
+// function checkarray(arr){
+// return Array.isArray(arr)
+// }
+// console.log(checkarray(1))
+// console.log(checkarray([1,2,3]));
+
+//2.cloned array pass
+// function cloned(inp){
+//     var coln=[...inp]//spread operater
+//     return coln;
+// }
+// console.log(cloned([1,2,3,4,5,6,7]));
+
+// q3 get first element of array
+// function getelem(arr,get=1){
+//     var  cloned= [];
+// for(var i=0; i<get; i++){
+    
+//     cloned.push(arr[i])
+// }
+// return cloned
+// }
+// console.log(getelem([2,2,3,4]))
+
+//q4 join all elem string in array
+// function joinarr(inp){
+//     var col=[...inp]
+// return col.join('+')
+// }
+// console.log(joinarr(['piyush','tarun']));
